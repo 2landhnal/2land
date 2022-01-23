@@ -72,12 +72,12 @@ section {
 .card {
   text-align: left;
   color: white;
-  margin: 5% 7%;
+  margin: 8% 7%;
   border-radius: 15px;
   /* box-shadow: 5px 5px 10px #ccc; */
 }
 .card:hover {
-  margin-top: 1%;
+  margin-top: 3%;
 }
 
 .skill-head {
