@@ -29,6 +29,11 @@ body {
   width:120%;
   margin-bottom: 5%;
 }
+@media (max-width: 992px) {
+  .laptop {
+    width:100%;
+  }
+}
 .big-heading {
   font-size: 3.5rem;
   font-weight: 700;
@@ -60,22 +65,25 @@ section {
 .hope {
   padding: 10% 0;
 }
+.imgs {
+    text-align: center;
+}
 
 .card {
+  text-align: left;
+  color: white;
   margin: 5% 7%;
   border-radius: 15px;
+  /* box-shadow: 5px 5px 10px #ccc; */
 }
 .card:hover {
-  margin: 2%;
+  margin-top: 1%;
 }
 
 .skill-head {
   margin-bottom: 5%;
 }
-.skill-name {
-  color: white;
-  height: 300px;
-}
+
 .skill1 {
   background-color: #FAD961;
   background-image: linear-gradient(19deg, #FAD961 0%, #F76B1C 100%);
