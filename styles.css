@@ -70,6 +70,7 @@ section {
 }
 
 .card {
+  transition: 0.1s;
   text-align: left;
   color: white;
   margin: 8% 7%;
